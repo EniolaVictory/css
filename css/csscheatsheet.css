@@ -4,12 +4,29 @@
         color:#555;
         font-size: 16px;
         font-weight: normal ;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:A    rial, Helvetica, sans-serif;
         line-height: 1.6em;
         margin: 0;
    
     
  }
+.box-1 h1{
+   color: chartreuse;
+   font-family: tahoma;
+   font-weight: 800;
+   font-style: italic;
+   text-decoration: underline;
+   text-transform: capitalize;
+   letter-spacing: 4px;
+   word-spacing: 1cm;
+}
+
+.box-1 p{
+   color: blueviolet;
+   text-decoration: none;
+   font-size: medium;
+   font-style: normal;text-decoration-color: #fff;
+}
 
 a{
    text-decoration: none;
@@ -24,9 +41,9 @@ A:active{
    color: aqua;
 }
    
- /*a:visited{
+ a:visited{
    color: chartreuse;
-} */
+} 
 
  .button{
    background-color: #333;
@@ -90,14 +107,17 @@ A:active{
 .categories ul{
    padding-left: 20px;
    list-style: none;
-   list-style: square;
+   
 }
 
 .categories li{
    padding-bottom: 6px;
    border-bottom: solid 1px #333;
-   list-style-image: image(
-      
-   );
+   list-style-image: url{/ }
 }
+   
+
+   
+   
+
 
