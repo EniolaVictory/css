@@ -1,4 +1,4 @@
- .container{
+ .body{
 
         background-color: #f4f4f4f4;
         color:#555;
@@ -56,6 +56,11 @@ A:active{
    color: #f4f4f4f4;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+}
+
  .box-1{
     background-color: #333;
     color: #fff;
@@ -95,7 +100,7 @@ A:active{
 }
 
 .categories{
-   bo rder: 8px #ccc solid ;
+   border: 8px #ccc solid ;
    padding: 10px;
    border-radius: 15px;
 }
@@ -114,8 +119,23 @@ A:active{
 .categories li{
    padding-bottom: 6px;
    border-bottom: solid 1px #333;
-   list-style-image: url{/}
+   list-style-image: url(/)
     
+}
+
+.my-form{
+   padding: 20px;
+}
+.my-form .form-group{
+   padding-bottom: 15px;
+}
+
+.my-form label{
+   display: block;
+}
+.my-form input [type="text"], .my-form input[type="Email"]{
+   padding: 8px;
+   width: 100%;
 }
    
 
